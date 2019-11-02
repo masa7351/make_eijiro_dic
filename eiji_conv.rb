@@ -4,6 +4,9 @@
 # v0.09 by Tats_y (http://www.binword.com/blog/)
 # 2011/04/10
 
+require 'iconv'
+require 'cgi'
+
 word_index = Hash.new
 word_id = Hash.new
 word_definition = Hash.new
